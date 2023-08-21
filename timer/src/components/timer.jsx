@@ -1,4 +1,4 @@
-import { useEffect } from "react"
+import { useEffect, useState } from "react"
 
 
  export function Timer() {
@@ -24,7 +24,7 @@ import { useEffect } from "react"
     return (
         <>
         <h1>helllo</h1>
-        <button onClick={() => setCount(prevCount+1)}>Count: {count} </button>
+        <button onClick={() => setCount((prevCount) => prevCount+1) }>Count: {count} </button>
        </>
     );
 }
