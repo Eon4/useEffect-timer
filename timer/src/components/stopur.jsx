@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
 
 
- export function Timer() {
+ export function Stopur() {
     const [data, setData] = useState([])
     const [count, setCount] = useState(0)
 
@@ -22,9 +22,8 @@ import { useEffect, useState } from "react"
 
     return (
         <>
-        <h1>helllo</h1>
+        <h1>Helllo World</h1>
         <button onClick={() => setCount((prevCount) => prevCount+1) }>Count: {count} </button>
        </>
     );
 }
-
